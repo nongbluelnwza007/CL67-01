@@ -1,4 +1,8 @@
-#include < stdio.h >
-main( )
+#include <stdio.h>
+int main ()
 {
-printf("hello, 66030130\n");
+char yourname[100];
+printf("What is your name?\t");
+scanf("%s",yourname);
+printf("hello, %s\n", yourname);
+}
